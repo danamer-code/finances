@@ -17,11 +17,11 @@ des del mòbil. No cal instal·lar res ni escriure cap ordre.
 
 ## 1. Aconsegueix el codi (GitHub)
 
-1. Crea't un compte gratuït a [github.com](https://github.com) si no en tens, i passa el teu nom d'usuari de GitHub
-   a qui et comparteix l'app.
-2. Rebràs una invitació per correu. Obre-la i prem **Accept invitation**.
-3. A la pàgina del repositori, prem **Fork** (a dalt a la dreta) i després **Create fork**. Ara tens la teva pròpia
-   còpia del codi al teu compte.
+1. Crea't un compte gratuït a [github.com](https://github.com) si no en tens, i entra-hi.
+2. Obre [github.com/guillemlo/finances](https://github.com/guillemlo/finances), prem **Fork** (a dalt a la dreta) i
+   després **Create fork**. Ara tens la teva pròpia còpia del codi al teu compte.
+
+El teu fork és públic, com l'original, però només conté el codi: les teves dades no van mai a GitHub.
 
 ## 2. Publica l'app (Vercel)
 

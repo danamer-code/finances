@@ -17,11 +17,11 @@ phone. You don't need to install anything or type any commands.
 
 ## 1. Get the code (GitHub)
 
-1. Create a free account at [github.com](https://github.com) if you don't have one, and send your GitHub
-   username to the person sharing the app with you.
-2. You will get an invitation by email. Open it and press **Accept invitation**.
-3. On the repository page, press **Fork** (top right) and then **Create fork**. You now have your own copy of
-   the code under your account.
+1. Create a free account at [github.com](https://github.com) if you don't have one, and sign in.
+2. Open [github.com/guillemlo/finances](https://github.com/guillemlo/finances), press **Fork** (top right) and then
+   **Create fork**. You now have your own copy of the code under your account.
+
+Your fork is public, like the original, but it only contains the code: your data never goes to GitHub.
 
 ## 2. Publish the app (Vercel)
 
