@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/*
+ * Tokens de la direcció visual validada als mockups: fons gairebé negre, targetes grises,
+ * accent llima, xifres tabulars. Mode fosc per defecte; el clar és opcional.
+ */
+:root,
+[data-theme="dark"] {
+  --ground: #0e0e0e;
+  --surface: #1b1b1b;
+  --surface-2: #262624;
+  --ink: #f2f2ef;
+  --ink-2: #a3a39c;
+  --ink-3: #6f6f69;
+  --line: #2a2a28;
+  --accent: #d6f35b;
+  --accent-ink: #121212;
+  --positive: #6fd38a;
+  --negative: #ff8a4c;
+  --nav: #232322;
+  --nav-2: #333331;
+  --nav-active: #f2f2ef;
+  --nav-active-ink: #121212;
+  /* Sèries categòriques dels gràfics (validades per a daltonisme i contrast sobre la superfície fosca). */
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  color-scheme: dark;
+}
+
+[data-theme="light"] {
+  --ground: #efefec;
+  --surface: #ffffff;
+  --surface-2: #f1f1ee;
+  --ink: #121212;
+  --ink-2: #5e5e58;
+  --ink-3: #8a8a83;
+  --line: #e4e4df;
+  --accent: #d6f35b;
+  --accent-ink: #121212;
+  --positive: #1f7a3a;
+  --negative: #b4440e;
+  --nav: #151515;
+  --nav-2: #2a2a2a;
+  --nav-active: #ffffff;
+  --nav-active-ink: #121212;
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-ground: var(--ground);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-positive: var(--positive);
+  --color-negative: var(--negative);
+  --color-nav: var(--nav);
+  --color-nav-2: var(--nav-2);
+  --color-nav-active: var(--nav-active);
+  --color-nav-active-ink: var(--nav-active-ink);
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-feature-settings: "tnum" 1;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Llistes horitzontals de xips: es poden lliscar sense barra visible. */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Year Wrapped: entrada suau de cada element de la diapositiva. */
+@keyframes wrapped-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.wrapped-in {
+  animation: wrapped-in 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .wrapped-in {
+    animation: none;
+  }
+}
+
+/*
+ * Textos que es poden retallar (concepte, nom d'un fons, categoria): els escriu l'usuari en qualsevol alfabet,
+ * així que la direcció la decideix el mateix text. En hebreu, «iShares Developed World» es retalla pel final
+ * i no pel principi; l'alineació continua sent la de la interfície.
+ */
+.truncate {
+  unicode-bidi: plaintext;
+}

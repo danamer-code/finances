@@ -1,0 +1,31 @@
+/** Textos de la zona «nou» (català: la referència de les claus). */
+const nou = {
+  title: "Nou moviment",
+  kind: "Tipus de moviment",
+  expense: "Despesa",
+  income: "Ingrés",
+  concept: "Concepte",
+  conceptPlaceholder: "Concepte · p. ex. cafè",
+  clearConcept: "Esborrar concepte",
+  exists: (concept: string) => `Ja existeix «${concept}»: toca-la per no duplicar-la`,
+  newConcept: "Concepte nou: es crearà en desar",
+  saved: (label: string) => `Desat: ${label}`,
+  inARow: (n: number) => `${n} seguits`,
+  savedOnPhone: "desat al mòbil",
+  pickCategory: "Tria una categoria",
+  pickDate: "Tria la data",
+  category: "Categoria",
+  date: "Data",
+  likeLastTime: "Com l'última vegada",
+  lastTimes: "Últimes vegades",
+  backspace: "Esborrar",
+  saveAndAnother: "Desar i un altre",
+  general: "General",
+  manageCategories: "Gestiona les categories",
+  today: "Avui",
+  yesterday: "Ahir",
+  dayBeforeYesterday: "Abans d'ahir",
+  otherDate: "Una altra data",
+};
+
+export default nou;

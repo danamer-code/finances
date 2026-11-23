@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1795383138585,
+      "tag": "20261122213218_init",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1795385254135,
+      "tag": "20261122220734_drop_year_wrapped_frozen",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1795457961988,
+      "tag": "20261123181921_category_parents",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1795461597825,
+      "tag": "20261123191957_push_notifications",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1795470180703,
+      "tag": "20261123214300_locale_currency",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1795473111138,
+      "tag": "20261123223151_fiscal_tab",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1795473229194,
+      "tag": "20261123223349_app_secrets",
+      "breakpoints": true
+    }
+  ]
+}

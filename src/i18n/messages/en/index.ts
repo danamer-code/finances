@@ -1,0 +1,16 @@
+import type { Messages } from "../types";
+
+import common from "./common";
+import avui from "./avui";
+import moviments from "./moviments";
+import nou from "./nou";
+import any from "./any";
+import cartera from "./cartera";
+import fiscal from "./fiscal";
+import ajustos from "./ajustos";
+import login from "./login";
+import benvinguda from "./benvinguda";
+import wrapped from "./wrapped";
+import server from "./server";
+
+export const en: Messages = { common, avui, moviments, nou, any, cartera, fiscal, ajustos, login, benvinguda, wrapped, server };
