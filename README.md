@@ -80,6 +80,9 @@ La primera vegada que s'entra, la pantalla de benvinguda demana l'idioma, la div
   «Auto Confirm User». Si s'oblida la contrasenya, es canvia des d'aquí mateix.
 - Taules: les crea el primer desplegament amb la base de dades connectada (vegeu «Base de dades»).
 - Pestanya Fiscal (plusvàlues i IRPF d'Espanya): als usuaris nous surt amagada; s'activa a Ajustos.
+- Importar d'un full de càlcul (Ajustos › Importar): el CSV es llegeix al navegador (`src/lib/csv-import.ts`), amb
+  les columnes endevinades pels títols; el full de Finances (pestanya Data) es reconeix sol. Els moviments es desen
+  amb un id estable (usuari + data, concepte, import, categoria i ordre entre iguals), així que reimportar no duplica.
 
 ### App al mòbil
 

@@ -86,6 +86,19 @@ also creates your database tables. Wait until it says **Ready**.
 The **Tax tab** (capital gains and Spanish income tax) is off: it only applies in Spain. You can turn it on in
 **Settings** if you ever need it.
 
+## 7. Bring your old data (optional)
+
+If you kept your finances in a spreadsheet, it's easiest from a computer:
+
+1. In Google Sheets, open the tab with your movements (in the Finances spreadsheet, **Data**) and choose
+   **File** → **Download** → **Comma-separated values (.csv)**.
+2. Open your app in the computer's browser, sign in and go to **Settings** → **Import from a spreadsheet**.
+3. Choose the file. The Finances spreadsheet is recognised automatically; for any other one, tell the app which
+   column is which. Check where each category goes and press **Import**.
+
+The file is read in your browser and the movements go straight to your database. Importing the same file again
+doesn't duplicate anything, so you can import an updated version later.
+
 ---
 
 ## Getting updates

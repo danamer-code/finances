@@ -86,6 +86,19 @@ desplegament també crea les taules de la base de dades. Espera que posi **Ready
 La **pestanya Fiscal** (plusvàlues i IRPF) surt desactivada: només serveix a Espanya. La pots activar a **Ajustos**
 si mai la necessites.
 
+## 7. Porta les teves dades antigues (opcional)
+
+Si portaves les finances en un full de càlcul, és més còmode fer-ho des de l'ordinador:
+
+1. Al Google Sheets, obre la pestanya amb els moviments (al full de Finances, **Data**) i tria **Fitxer** →
+   **Baixa** → **Valors separats per comes (.csv)**.
+2. Obre la teva app al navegador de l'ordinador, entra-hi i ves a **Ajustos** → **Importar d'un full de càlcul**.
+3. Tria el fitxer. El full de Finances es reconeix sol; amb qualsevol altre, indica quina columna és cada cosa.
+   Revisa on va cada categoria i prem **Importar**.
+
+El fitxer es llegeix al teu navegador i els moviments van directament a la teva base de dades. Si tornes a importar
+el mateix fitxer, no es duplica res: més endavant en pots importar una versió actualitzada.
+
 ---
 
 ## Rebre actualitzacions

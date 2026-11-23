@@ -72,6 +72,11 @@ async function Settings() {
           <span className="flex-1 font-medium">{m.ajustos.links.balances}</span>
           <Icon name="chevronRight" className="text-ink-3" />
         </Link>
+        <Link href="/ajustos/importar" className={row}>
+          <Icon name="import" />
+          <span className="flex-1 font-medium">{m.importar.link}</span>
+          <Icon name="chevronRight" className="text-ink-3" />
+        </Link>
         <div className={row}>
           <Icon name="moon" />
           <span className="flex-1 font-medium">{m.common.theme.label}</span>

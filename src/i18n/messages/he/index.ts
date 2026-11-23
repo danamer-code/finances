@@ -12,5 +12,6 @@ import login from "./login";
 import benvinguda from "./benvinguda";
 import wrapped from "./wrapped";
 import server from "./server";
+import importar from "./importar";
 
-export const he: Messages = { common, avui, moviments, nou, any, cartera, fiscal, ajustos, login, benvinguda, wrapped, server };
+export const he: Messages = { common, avui, moviments, nou, any, cartera, fiscal, ajustos, login, benvinguda, wrapped, server, importar };

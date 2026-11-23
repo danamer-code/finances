@@ -50,6 +50,7 @@ const PATHS = {
   archive: "M3 4h18v4H3zM5 8v12h14V8M10 12h4",
   bell: "M6 9a6 6 0 1 1 12 0c0 6 2.5 8 2.5 8h-17S6 15 6 9zM10 20a2 2 0 0 0 4 0",
   share: "M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6",
+  import: "M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8zM14 3v5h5M12 11v6M9 14l3 3 3-3",
 } as const satisfies Record<CategoryIconName, string> & Record<string, string>;
 
 export type IconName = keyof typeof PATHS;
