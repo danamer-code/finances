@@ -1,7 +1,7 @@
 # Finances
 
 > **Want your own copy?** Follow [docs/INSTALL.md](docs/INSTALL.md) (English, no coding needed): your own
-> accounts, your own database, updates with one click.
+> accounts, your own database, updates with one click. En català: [docs/INSTALL.ca.md](docs/INSTALL.ca.md).
 
 App de finances personals mòbil (PWA): apuntar una despesa en menys de 5 segons, amb una mà; el mes, l'any, la
 cartera d'inversions i, per a qui tributa a Espanya, les plusvàlues. En català, anglès i hebreu (de dreta a

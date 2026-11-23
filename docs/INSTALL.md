@@ -1,5 +1,7 @@
 # Your own copy of Finances
 
+**English** · [Català](INSTALL.ca.md)
+
 Finances is a personal finance app for your phone: you note an expense in a few seconds, and it shows your month,
 your year and your investment portfolio. It works in English, Hebrew and Catalan, with shekels, dollars or euros.
 
